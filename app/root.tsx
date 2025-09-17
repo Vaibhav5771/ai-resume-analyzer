@@ -14,7 +14,8 @@ import {useEffect} from "react";
 
 
 export const links: Route.LinksFunction = () => [
-  { rel: "preconnect", href: "https://fonts.googleapis.com" },
+    { rel: "icon", href: "./assets/public/favicon.ico" },
+    { rel: "preconnect", href: "https://fonts.googleapis.com" },
   {
     rel: "preconnect",
     href: "https://fonts.gstatic.com",
